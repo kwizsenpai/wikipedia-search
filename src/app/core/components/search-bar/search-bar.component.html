@@ -1,0 +1,6 @@
+<form (submit)="onFormSubmit($event)">
+  <label
+    >Enter term to search:
+    <input #termToSearch (input)="getTermToSearch(termToSearch.value)" />
+  </label>
+</form>
